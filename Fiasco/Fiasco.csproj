@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <PublishAot>true</PublishAot>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Google.FlatBuffers" Version="24.3.25" />
+      <PackageReference Include="Microsoft.CodeAnalysis.Common" Version="4.12.0-3.final" />
+    </ItemGroup>
+
+</Project>
